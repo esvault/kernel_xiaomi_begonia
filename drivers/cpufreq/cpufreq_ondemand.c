@@ -18,7 +18,8 @@
 #include <linux/tick.h>
 #include <linux/sched/cpufreq.h>
 
-#include "cpufreq_ondemand.h"
+// #include "cpufreq_ondemand.h"
+#include "cpufreq_governor.h"
 
 /* On-demand governor macros */
 #define DEF_FREQUENCY_UP_THRESHOLD		(80)

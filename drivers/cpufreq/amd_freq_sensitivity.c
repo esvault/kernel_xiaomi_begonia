@@ -21,7 +21,8 @@
 #include <asm/msr.h>
 #include <asm/cpufeature.h>
 
-#include "cpufreq_ondemand.h"
+// #include "cpufreq_ondemand.h"
+#include "cpufreq_governor.h"
 
 #define MSR_AMD64_FREQ_SENSITIVITY_ACTUAL	0xc0010080
 #define MSR_AMD64_FREQ_SENSITIVITY_REFERENCE	0xc0010081
